@@ -115,9 +115,9 @@
 					<li id="nav-portfolio" >
 						<a href="<?php echo base_url()?>ourwork">Our Work</a>					
 					</li>
-					<li id="nav-purchase" >
+<!--					<li id="nav-purchase" >
             <a href="<?php echo base_url()?>lessons">Lessons</a>
-          </li>
+          </li>-->
           <li id="nav-blog"  >
 						<a href="<?php echo base_url()?>blog">Blog</a>
 					</li>
