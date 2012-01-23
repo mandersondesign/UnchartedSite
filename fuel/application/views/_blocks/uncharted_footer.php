@@ -16,7 +16,7 @@
 					<strong>Uncharted<br/>Technologies, LLC</strong>
 					<p>Houston, TX<br/>
 					281-728-1871<br/>
-					<a class="button" href="contact.php" style="margin:.5em 0 0 0;">Contact</a>
+					<a class="button" href="hireus" style="margin:.5em 0 0 0;">Contact</a>
 					</p>
 					
 				</div>

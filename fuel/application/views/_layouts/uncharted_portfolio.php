@@ -11,16 +11,16 @@
 					
 				<!-- portfolio item -->
 				<article class="portfolio-item eight columns">
-          <?php echo fuel_var('portfolio_image_1', ''); ?>
+          <?php echo $portfolio_image_1; ?>
 					
           <header>
 						<h1>
-              <a href="<?php echo fuel_var('portfolio_website_1', ''); ?>" class=""><?php echo fuel_var('portfolio_title_1', ''); ?></a>
+              <a href="<?php echo $portfolio_website_1; ?>" class=""><?php echo $portfolio_title_1; ?></a>
             </h1>
 					</header>					
 																
 					<div class="portfolio-excerpt">
-            <a href="<?php echo fuel_var('portfolio_website_1', ''); ?>" class=""><?php echo fuel_var('portfolio_website_1', ''); ?></a>
+            <a href="portfolio1" class="">Read More &rarr;</a>
           </div>
 										
 				</article>
@@ -28,16 +28,16 @@
         
         <!-- portfolio item -->
 				<article class="portfolio-item eight columns">
-          <?php echo fuel_var('portfolio_image_2', ''); ?>
+          <?php echo $portfolio_image_2; ?>
 					
           <header>
 						<h1>
-              <a href="<?php echo fuel_var('portfolio_website_2', ''); ?>" class=""><?php echo fuel_var('portfolio_title_2', ''); ?></a>
+              <a href="<?php echo $portfolio_website_2; ?>" class=""><?php echo $portfolio_title_2; ?></a>
             </h1>
 					</header>					
 																
 					<div class="portfolio-excerpt">
-            <a href="<?php echo fuel_var('portfolio_website_2', ''); ?>" class=""><?php echo fuel_var('portfolio_website_2', ''); ?></a>
+            <a href="portfolio2" class="">Read More &rarr;</a>
           </div>
 										
 				</article>
@@ -45,16 +45,16 @@
         
         <!-- portfolio item -->
 				<article class="portfolio-item eight columns">
-          <?php echo fuel_var('portfolio_image_3', ''); ?>
+          <?php echo $portfolio_image_3; ?>
 					
           <header>
 						<h1>
-              <a href="<?php echo fuel_var('portfolio_website_3', ''); ?>" class=""><?php echo fuel_var('portfolio_title_3', ''); ?></a>
+              <a href="<?php echo $portfolio_website_3; ?>" class=""><?php echo $portfolio_title_3; ?></a>
             </h1>
 					</header>					
 																
 					<div class="portfolio-excerpt">
-            <a href="<?php echo fuel_var('portfolio_website_3', ''); ?>" class=""><?php echo fuel_var('portfolio_website_3', ''); ?></a>
+            <a href="portfolio3" class="">Read More &rarr;</a>
           </div>
 										
 				</article>
@@ -62,16 +62,16 @@
         
         <!-- portfolio item -->
 				<article class="portfolio-item eight columns">
-          <?php echo fuel_var('portfolio_image_4', ''); ?>
+          <?php echo $portfolio_image_4; ?>
 					
           <header>
 						<h1>
-              <a href="<?php echo fuel_var('portfolio_website_4', ''); ?>" class=""><?php echo fuel_var('portfolio_title_4', ''); ?></a>
+              <a href="<?php echo $portfolio_website_4; ?>" class=""><?php echo $portfolio_title_4; ?></a>
             </h1>
 					</header>					
 																
 					<div class="portfolio-excerpt">
-            <a href="<?php echo fuel_var('portfolio_website_4', ''); ?>" class=""><?php echo fuel_var('portfolio_website_4', ''); ?></a>
+            <a href="portfolio4" class="">Read More &rarr;</a>
           </div>
 										
 				</article>
@@ -79,16 +79,16 @@
         
         <!-- portfolio item -->
 				<article class="portfolio-item eight columns">
-          <?php echo fuel_var('portfolio_image_5', ''); ?>
+          <?php echo $portfolio_image_5; ?>
 					
           <header>
 						<h1>
-              <a href="<?php echo fuel_var('portfolio_website_5', ''); ?>" class=""><?php echo fuel_var('portfolio_title_5', ''); ?></a>
+              <a href="<?php echo $portfolio_website_5; ?>" class=""><?php echo $portfolio_title_5; ?></a>
             </h1>
 					</header>					
 																
 					<div class="portfolio-excerpt">
-            <a href="<?php echo fuel_var('portfolio_website_5', ''); ?>" class=""><?php echo fuel_var('portfolio_website_5', ''); ?></a>
+            <a href="portfolio5" class="">Read More &rarr;</a>
           </div>
 										
 				</article>
@@ -96,16 +96,16 @@
         
         <!-- portfolio item -->
 				<article class="portfolio-item eight columns">
-          <?php echo fuel_var('portfolio_image_6', ''); ?>
+          <?php echo $portfolio_image_6; ?>
 					
           <header>
 						<h1>
-              <a href="<?php echo fuel_var('portfolio_website_6', ''); ?>" class=""><?php echo fuel_var('portfolio_title_6', ''); ?></a>
+              <a href="<?php echo $portfolio_website_6; ?>" class=""><?php echo $portfolio_title_6; ?></a>
             </h1>
 					</header>					
 																
 					<div class="portfolio-excerpt">
-            <a href="<?php echo fuel_var('portfolio_website_6', ''); ?>" class=""><?php echo fuel_var('portfolio_website_6', ''); ?></a>
+            <a href="portfolio6" class="">Read More &rarr;</a>
           </div>
 										
 				</article>

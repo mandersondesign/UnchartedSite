@@ -42,16 +42,10 @@ $config['layout_fields']['uncharted_about'] =  array(
 	'page_title' => array('label' => lang('layout_field_page_title')),
 	'meta_description' => array('label' => lang('layout_field_meta_description')),
 	'meta_keywords' => array('label' => lang('layout_field_meta_keywords')),
-  'header_1' => array('label' => lang('layout_field_header_1'), 'type' => 'textarea', 'description' => lang('layout_field_header_1_description')),
-	'tagline' => array('label' => lang('layout_field_tagline'), 'type' => 'textarea', 'description' => lang('layout_field_tagline_description')),
   'content_section_1' => array('label' => lang('layout_field_content_section_1'), 'type' => 'textarea', 'description' => lang('layout_field_content_section_1_description')),
-  'quote' => array('label' => lang('layout_field_quote'), 'type' => 'textarea', 'description' => lang('layout_field_quote_description')),
-  'pullquote' => array('label' => lang('layout_field_pullquote'), 'type' => 'textarea', 'description' => lang('layout_field_pullquote_description')),
   'bottom_content' => array('label' => lang('layout_field_bottom_content'), 'type' => 'textarea', 'description' => lang('layout_field_bottom_content_description')),
   'sidebar_content_1' => array('label' => lang('layout_field_sidebar_content_1'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_content_1_description')),
-  'sidebar_image_1' => array('label' => lang('layout_field_sidebar_image_1'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_image_1_description')),
   'call_to_action_button' => array('label' => lang('layout_field_call_to_action_button'), 'type' => 'textarea', 'description' => lang('layout_field_call_to_action_button_description')),
-  'sidebar_marketing_image' => array('label' => lang('layout_field_sidebar_marketing_image'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_marketing_image_description')),
   'sidebar_link_list' => array('label' => lang('layout_field_sidebar_link_list'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_link_list_description'))
 
   );
@@ -67,6 +61,33 @@ $config['layout_fields']['uncharted_contact'] =  array(
   'sidebar_marketing_image' => array('label' => lang('layout_field_sidebar_marketing_image'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_marketing_image_description')),
   'sidebar_link_list' => array('label' => lang('layout_field_sidebar_link_list'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_link_list_description'))
 
+  );
+
+$config['layout_fields']['uncharted_hiring'] =  array(
+	'copy' => array('copy' => lang('layout_field_main_copy')),
+	'page_title' => array('label' => lang('layout_field_page_title')),
+	'meta_description' => array('label' => lang('layout_field_meta_description')),
+	'meta_keywords' => array('label' => lang('layout_field_meta_keywords')),
+  'sidebar_content_1' => array('label' => lang('layout_field_sidebar_content_1'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_content_1_description')),
+  'sidebar_image_1' => array('label' => lang('layout_field_sidebar_image_1'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_image_1_description')),
+  'call_to_action_button' => array('label' => lang('layout_field_call_to_action_button'), 'type' => 'textarea', 'description' => lang('layout_field_call_to_action_button_description')),
+  'sidebar_marketing_image' => array('label' => lang('layout_field_sidebar_marketing_image'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_marketing_image_description')),
+  'sidebar_link_list' => array('label' => lang('layout_field_sidebar_link_list'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_link_list_description'))
+
+  );
+
+$config['layout_fields']['uncharted_portfolio_item'] =  array(
+	'copy' => array('copy' => lang('layout_field_main_copy')),
+	'page_title' => array('label' => lang('layout_field_page_title')),
+	'meta_description' => array('label' => lang('layout_field_meta_description')),
+	'meta_keywords' => array('label' => lang('layout_field_meta_keywords')),
+  'project_name' => array('label' => lang('layout_field_project_name'), 'description' => lang('layout_field_project_name_description')),
+  'project_type' => array('label' => lang('layout_field_project_type'), 'description' => lang('layout_field_project_type_description')),
+  'launch_date' => array('label' => lang('layout_field_launch_date'), 'description' => lang('layout_field_launch_date_description')),
+  'web_address' => array('label' => lang('layout_field_web_address'), 'description' => lang('layout_field_web_address_description')),
+  'project_description_1' => array('label' => lang('layout_field_project_description_1'), 'type' => 'textarea', 'description' => lang('layout_field_project_description_1_description')),
+  'project_description_2' => array('label' => lang('layout_field_project_description_2'), 'type' => 'textarea', 'description' => lang('layout_field_project_description_2_description')),
+  'featured_image' => array('label' => lang('layout_field_sidebar_content_1'), 'type' => 'textarea', 'description' => lang('layout_field_sidebar_content_1_description'))
   );
 
 $config['layout_fields']['uncharted_portfolio'] =  array(

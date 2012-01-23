@@ -58,7 +58,7 @@
 		
 	
 </head>
-<body class="skin-red">
+<body class="skin-blue">
 <div class="wrap">
 
 
@@ -77,7 +77,7 @@
 				</div>
 				<div class="one-third column">
 					<div class="tagline medium notop">We are looking for you!</div>
-					<a class="button button-red button-lighttext button-full nobottom" target="_top" href="http://sevenspark.com/out/agility-html">Join our growing team! &rarr;</a>
+					<a class="button button-red button-lighttext button-full nobottom" target="_top" href="wearehiring">Join our growing team! &rarr;</a>
 				</div>
 			</div>
 		</div>
@@ -99,8 +99,8 @@
 		<div id="header-inner" class="sixteen columns over">
 			
 			<div id="masthead" class="one-third column alpha">
-				<h1 id="site-title" class="remove-bottom"><a href="<?php echo base_url()?>">UnchartedTech</a></h1>
-				<h2 id="sub-title">Beautiful / Functional / Development</h2>
+				<h1 id="site-title" class="remove-bottom"><a href="<?php echo base_url()?>"><img src="<?php echo base_url()?>assets/images/UnchartedLogoSmall.png" alt="Fully Responsive" width="375" height="89" /></a></h1>
+<!--				<h2 id="sub-title">Beautiful / Functional / Development</h2>-->
 			</div>
 			
 			<nav id="main-nav" class="two-thirds column omega">
@@ -122,7 +122,7 @@
 						<a href="<?php echo base_url()?>blog">Blog</a>
 					</li>
 					<li id="nav-hire" >
-            <a href="<?php echo base_url()?>hire"><button class="button-red button-lighttext">Hire Us!</button></a>
+            <a href="<?php echo base_url()?>hireus"><button class="button-red button-lighttext">Hire Us!</button></a>
           </li>
           
 				</ul>

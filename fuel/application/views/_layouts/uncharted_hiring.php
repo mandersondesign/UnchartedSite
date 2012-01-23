@@ -7,8 +7,8 @@
 		<div class="single eleven columns" id="main" role="main">
 			<article>
 				<header>
-					<h1 class="page-title page-title-with-sub">Hire Us</h1>
-					<h5 class="sub-page-title" >Tell Us About You!</h5>
+					<h1 class="page-title page-title-with-sub">We are Hiring</h1>
+					<h5 class="sub-page-title" >Please read the whole page before responding.</h5>
 				</header>
 			
 				<div id="contact" class="contact-form">
@@ -18,34 +18,11 @@
 					<form method="post" action="<?php echo base_url()?>assets/ajaxcontact/contact.php" name="contactform" id="contactform">
             <div id="contact_left">
               <label for="name" accesskey="n">Name</label> <input type="text" name="name" id="name" />
-              
               <label for="phone" accesskey="p">Phone</label> <input type="text" name="phone" id="phone" />
-              
-              <label for="budget" accesskey="b">Budget</label> 
-              <select name="budget" id="budget" >
-                <option value="select">Select...</option>
-                <option value="0-1000">< $1000</option>
-                <option value="1000-3000">$1000 - $3000</option>
-                <option value="3000-5000">$3000 - $5000</option>
-                <option value="5000-7500">$5000 - $7500</option>
-                <option value="7500-10000">$7500 - $10,000</option>
-                <option value="10000-15000">$10000 - $15,000</option>
-                <option value="15000-20000">$15000 - $20,000</option>
-                <option value="20000-30000">$20,000 - $30,000</option>
-                <option value="30000+">$30,000+</option>
-              </select>
             </div>
             <div id="contact_right">
               <label for="email" accesskey="e">Email</label> <input type="text" name="email" id="email" />
-              <label for="website" accesskey="w">Current Website</label> <input type="text" name="website" id="website" />
-              
-              <label for="timeline" accesskey="t">Timeline</label> 
-              <select name="timeline" id="timeline" >
-                <option value="select">Select...</option>
-                <option value="1-3 months">1 - 3 Months</option>
-                <option value="3-6 months">3 - 6 months</option>
-                <option value="6 months+">6+ months</option>
-            </select>
+              <label for="website" accesskey="w">Portfolio Website</label> <input type="text" name="website" id="website" />
             </div>
             <div class="clearfix"></div>
             <div>
@@ -60,20 +37,34 @@
 				
 				<div class="three columns alpha">
 					<div class="address">
-						<h5><strong>Uncharted Technologies, LLC</strong></h5>
-						Opal Valley<br/>
-						Houston, TX 77065
+						<h5><strong>We are hiring for the following positions:</strong></h5>
+            <ul>
+              <li>Part-Time Front End Developer</li>
+              <li>Part-Time PHP Programmer</li>
+              <li>Part-Time Graphic Designer</li>
+            </ul>
+            <p>
+              We have offices in Houston, TX and Nashville, TN but will accept applications
+              from anywhere in the United States.
+            </p>
 					</div>
 				</div>
 				<div class="eight columns omega">
-					<div class="map_canvas" 
-						data-lat="40.4166909"
-						data-lng="-3.7003454"
-						data-address="5 Calle de Sevilla, Madrid, Spain" 
-						data-zoom="15" 
-						data-mapTitle="Agility, Inc"
-						style="height:220px;width:100%;"></div> 
-					<br/>
+					<h5><strong>We use the following:</strong></h5>
+            <ul>
+              <li>PHP 5.0+</li>
+              <li>Code Igniter Framework</li>
+              <li>FUEL CMS</li>
+              <li>HTML5, CSS3, JQuery, JQuery UI</li>
+            </ul>
+            <p>
+              When you apply, please include a link to examples of your work,
+              and please give us correct contact information. Please also include the
+              phrase "I Love Apple Pie" in the body of your message. We are looking for
+              talented people who can follow directions and be creative within 
+              a project requirements.  We are a growing company and look forward
+              to expanding with you involved!
+            </p>
 				</div>
 				
 			</article>
@@ -94,6 +85,18 @@
 			<aside>
         <?php echo fuel_var('sidebar_content_1', ''); ?>
 				
+        <?php echo fuel_var('sidebar_image_1', ''); ?>
+				
+        <?php echo fuel_var('call_to_action_button', ''); ?>
+				
+			</aside>
+			
+			<aside class="adspace">
+        <?php echo fuel_var('sidebar_marketing_image', ''); ?>
+			</aside>
+			
+			<aside>
+        <?php echo fuel_var('sidebar_link_list', ''); ?>
 			</aside>
 			
 		</div>

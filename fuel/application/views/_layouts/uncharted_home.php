@@ -10,19 +10,19 @@
 			  <div class="flexslider">
 			    <ul class="slides">
 			    	<li>
-			    		<a href="responsive-grid.php"><img src="http://placehold.it/940x400" alt="Fully Responsive" /></a>
+			    		<a href="hireus"><img src="<?php echo base_url()?>assets/images/slides/pie.png" alt="Fully Responsive" /></a>
 			    	</li>
 			    	<li>
-			    		<a href="responsive-slider.php"><img src="<?php echo base_url()?>assets/images/slides/minimal_design_slide.jpg" alt="Minimalist Design"/></a>
+			    		<a href="hireus"><img src="<?php echo base_url()?>assets/images/slides/comic.png" alt="Minimalist Design"/></a>
 			    	</li>
 			    	<li>
-			    		<a href="about.php"><img src="<?php echo base_url()?>assets/images/slides/beautiful_typography_slide.jpg" alt="Beautiful Typography"/></a>
+			    		<a href="about"><img src="<?php echo base_url()?>assets/images/slides/blueprint.png" alt="Beautiful Typography"/></a>
 			    	</li>
 			    	<li>
-			    		<img src="<?php echo base_url()?>assets/images/slides/html5_slide.jpg" alt="HTML5"/>
+			    		<a href="ourwork"><img src="<?php echo base_url()?>assets/images/slides/tailor.png" alt="HTML5"/></a>
 			    	</li>
 			    	<li>
-			    		<a href="responsive-grid.php"><img src="<?php echo base_url()?>assets/images/slides/responsive_layout_slide.jpg" alt="Responsive Layout"/></a>
+			    		<a href="hireus"><img src="<?php echo base_url()?>assets/images/slides/webhosting.png" alt="Responsive Layout"/></a>
 			    	</li>
 			    </ul>
 			  </div>
