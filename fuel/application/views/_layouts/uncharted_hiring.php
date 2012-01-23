@@ -15,7 +15,7 @@
 					
 					<div id="message"></div>
 					
-					<form method="post" action="<?php echo base_url()?>assets/ajaxcontact/contact.php" name="contactform" id="contactform">
+					<form method="post" action="<?php echo base_url()?>assets/ajaxcontact_hiring/contact.php" name="contactform" id="contactform">
             <div id="contact_left">
               <label for="name" accesskey="n">Name</label> <input type="text" name="name" id="name" />
               <label for="phone" accesskey="p">Phone</label> <input type="text" name="phone" id="phone" />
@@ -84,19 +84,6 @@
 			
 			<aside>
         <?php echo fuel_var('sidebar_content_1', ''); ?>
-				
-        <?php echo fuel_var('sidebar_image_1', ''); ?>
-				
-        <?php echo fuel_var('call_to_action_button', ''); ?>
-				
-			</aside>
-			
-			<aside class="adspace">
-        <?php echo fuel_var('sidebar_marketing_image', ''); ?>
-			</aside>
-			
-			<aside>
-        <?php echo fuel_var('sidebar_link_list', ''); ?>
 			</aside>
 			
 		</div>
