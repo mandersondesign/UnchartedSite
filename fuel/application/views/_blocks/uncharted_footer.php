@@ -32,7 +32,7 @@
 					data-lng="-95.369390"
 					data-address="Houston, Texas" 
 					data-zoom="12" 
-					data-mapTitle="Uncharted Technologies, Inc"
+					data-mapTitle="Uncharted Technologies"
 					style="height:150px;width:100%;"></div>
 			</div>
 			

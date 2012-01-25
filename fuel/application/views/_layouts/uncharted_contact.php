@@ -67,11 +67,11 @@
 				</div>
 				<div class="eight columns omega">
 					<div class="map_canvas" 
-						data-lat="40.4166909"
-						data-lng="-3.7003454"
-						data-address="5 Calle de Sevilla, Madrid, Spain" 
-						data-zoom="15" 
-						data-mapTitle="Agility, Inc"
+						data-lat="29.760193"
+					data-lng="-95.369390"
+					data-address="Houston, Texas" 
+					data-zoom="12" 
+					data-mapTitle="Uncharted Technologies"
 						style="height:220px;width:100%;"></div> 
 					<br/>
 				</div>
